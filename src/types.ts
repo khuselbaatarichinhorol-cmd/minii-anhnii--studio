@@ -19,6 +19,7 @@ export interface CreatorProfile {
   location: string;
   defaultSubdomain: string;
   bio: string;
+  avatar?: string;
   aboutText: string[];
   stats: {
     label: string;

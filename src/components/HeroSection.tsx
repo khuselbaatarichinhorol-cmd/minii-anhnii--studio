@@ -32,9 +32,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
     setQuickInput(subdomain);
   }, [subdomain]);
 
-  // The primary photo URL: custom photo if user uploaded or specified, otherwise Netlify URL
-  const netlifyDefaultPhoto = `https://${subdomain}.netlify.app/my-photo.png`;
-  const activePhotoSrc = customPhotoUrl || netlifyDefaultPhoto;
+  // The primary photo URL: custom photo if user uploaded or specified, otherwise bundled profile avatar
+  const defaultPhoto = profile.avatar || `https://${subdomain}.netlify.app/my-photo.png`;
+  const activePhotoSrc = customPhotoUrl || defaultPhoto;
   const mainSiteUrl = `https://${subdomain}.netlify.app`;
 
   const handleApplyQuickSubdomain = (e: React.FormEvent) => {

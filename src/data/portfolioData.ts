@@ -1,4 +1,9 @@
 import { CreatorProfile, ProjectItem } from '../types';
+import avatarImg from '../assets/images/portfolio_avatar_1792291560875.jpg';
+import dreamJobImg from '../assets/images/project_dream_job_1792291562200.jpg';
+import youtubeMediaImg from '../assets/images/project_youtube_media_1792291561916.jpg';
+import gameHubImg from '../assets/images/project_game_hub_1792291584817.jpg';
+import herdingGameImg from '../assets/images/project_herding_game_1792291561176.jpg';
 
 export const CREATOR_PROFILE: CreatorProfile = {
   name: 'Хүсэлбаатар',
@@ -6,6 +11,7 @@ export const CREATOR_PROFILE: CreatorProfile = {
   email: 'khuselbaatarichinhorol@gmail.com',
   location: 'Улаанбаатар, Монгол',
   defaultSubdomain: 'glittery-kataifi-2e78a4',
+  avatar: avatarImg,
   bio: 'Интерактив веб хуудас, хөгжилтэй мини тоглоомууд болон сонирхолтой контентууд бүтээх сонирхолтой залуу хөгжүүлэгч.',
   aboutText: [
     'Сайн байна уу! Намайг Хүсэлбаатар гэдэг. Би орчин үеийн веб технологи, интерактив тоглоом болон дижитал контент бүтээх чиглэлээр суралцан ажиллаж байна.',
@@ -31,7 +37,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     rawUrl: 'https://glittery-kataifi-2e78a4.netlify.app/job',
     description: 'Ирээдүйн зорилго, мэргэжлийн замнал болон мөрөөдлийн ажлын төлөвлөгөөг танилцуулсан хуудас.',
     detailedInfo: 'Хувь хүний хөгжил, карьерын зорилт болон суралцах шат дарааллыг интерактив хэлбэрээр эмхэтгэсэн веб хуудас.',
-    image: '/src/assets/images/project_dream_job_1792291562200.jpg',
+    image: dreamJobImg,
     tags: ['HTML5', 'CSS3', 'Зорилго', 'Карьер'],
     features: [
       'Мэргэжлийн замналын төлөвлөгөө',
@@ -48,7 +54,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     rawUrl: 'https://glittery-kataifi-2e78a4.netlify.app/yout',
     description: 'Миний бэлтгэсэн сонирхолтой бичлэгүүд, сургалтын видео болон YouTube сувгийн төв.',
     detailedInfo: 'Видео контент, хичээлүүд болон бүтээлч туршилтуудыг нэг дор цуглуулсан видео төв хуудас.',
-    image: '/src/assets/images/project_youtube_media_1792291561916.jpg',
+    image: youtubeMediaImg,
     tags: ['YouTube', 'Видео', 'Контент', 'Сургалт'],
     features: [
       'Бичлэгүүдийг шууд үзэх боломж',
@@ -65,7 +71,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     rawUrl: 'https://glittery-kataifi-2e78a4.netlify.app/tusul.html',
     description: 'Браузер дээр ажиллах сонирхолтой мини тоглоомууд болон интерактив хөгжүүлэлтийн сан.',
     detailedInfo: 'JavaScript болон Canvas ашиглан хөгжүүлсэн интерактив мини тоглоомуудыг багтаасан тоглоомын төслийн сан.',
-    image: '/src/assets/images/project_game_hub_1792291584817.jpg',
+    image: gameHubImg,
     tags: ['JavaScript', 'Canvas', 'Мини тоглоом', 'Интерактив'],
     features: [
       'Браузерт шууд тоглох горим',
@@ -82,7 +88,7 @@ export const PROJECTS_LIST: ProjectItem[] = [
     rawUrl: 'https://glittery-kataifi-2e78a4.netlify.app/togloom.html',
     description: 'Монгол уламжлалт мал маллагааны сэдэвтэй, малаа хашаанд нь хураах хөгжилтэй тоглоом.',
     detailedInfo: 'Нүүдэлчин ахуй, таван хошуу малыг бэлчээрээс хашаанд нь аюулгүй хаших логик дүрэмтэй, монгол агуулгатай тоглоом.',
-    image: '/src/assets/images/project_herding_game_1792291561176.jpg',
+    image: herdingGameImg,
     tags: ['Монгол тоглоом', 'Мал аж ахуй', 'Логик', 'Хөгжилтэй'],
     features: [
       'Монгол хээ угалз, байгалийн дизайн',
