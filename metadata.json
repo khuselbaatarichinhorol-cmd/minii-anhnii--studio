@@ -1,0 +1,6 @@
+{
+  "name": "Хүсэлбаатар - Хувийн веб сайт & бүтээлүүд",
+  "description": "Хүсэлбаатарын хувийн танилцуулга веб сайт ба бүтээлүүдийн цуглуулга",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
